@@ -6,16 +6,13 @@ public class Jogos{
     public String protagonista;
     //creando los emtodos
     public void Informacion(){
-        System.out.println("Esta es la informacion:
-                "+nombre+"/"+fecha_salida+"/"+compañia+"/"+protagonista);
+        System.out.println("Esta es la informacion: "+nombre+"/"+fecha_salida+"/"+compañia+"/"+protagonista);
     }
     public void divesion(){
-        System.out.println("Este juego es muy divertido y la lady lo ha
-                jugado");
+        System.out.println("Este juego es muy divertido y la lady lo ha jugado");
     }
     public void nojugado(){
-        System.out.println("Este juego es muy divertido y la lady no
-                lo ha jugado");
+        System.out.println("Este juego es muy divertido y la lady no lo ha jugado");
     }
     //crear los valores del objeto
     public Jogos(String nombre, int fecha_salida, String compañia,
